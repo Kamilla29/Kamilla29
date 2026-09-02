@@ -1,14 +1,14 @@
 # Hi, I'm Kamilla Kuanysheva 👋
 
-**Frontend Developer with a strong QA and software-quality focus.**
+**React Developer | TypeScript | QA Automation**
 
-I build JavaScript/TypeScript applications with an emphasis on reusable UI architecture, automated testing, maintainable code and cross-platform interfaces.
+I focus on modern frontend development with **React and TypeScript**, with a strong interest in reusable UI architecture, automated testing, maintainable code and cross-platform JavaScript applications.
 
-My current portfolio is focused on three closely connected areas:
+My profile has one clear core and two complementary strengths:
 
-- **Frontend:** React, TypeScript, component architecture and design systems
-- **QA / Automation:** Playwright, Cypress, API testing and CI/CD
-- **Mobile:** React Native and TypeScript
+- **Primary focus — React development:** React, TypeScript, component architecture and design systems
+- **Engineering advantage — QA automation:** Playwright, Cypress, API testing and CI/CD
+- **Mobile extension — React Native:** cross-platform applications built on the same TypeScript ecosystem
 
 ## Featured project
 
@@ -27,17 +27,19 @@ A shared design-token architecture for **web and game user interfaces**.
 
 **Stack:** JavaScript · Node.js · HTML · CSS · JSON Design Tokens · Godot 4 · GDScript · GitHub Actions
 
+Asteria demonstrates the architectural side of my frontend work: reusable UI concepts, shared component semantics, platform adaptation and automated validation.
+
 ## Portfolio roadmap
 
-I am currently expanding the portfolio with production-style projects that demonstrate the complete development and testing workflow:
+I am expanding the portfolio with production-style projects centered on the React/TypeScript ecosystem:
 
-- **LoanFlow** — React 18 + TypeScript fintech application with reusable components, forms, API integration, Cypress and CI/CD
+- **LoanFlow** — React + TypeScript fintech application with reusable components, multi-step forms, API integration, Cypress and CI/CD
 - **QA Automation Lab** — Playwright + TypeScript, E2E/API testing, test strategy, test cases and bug reporting
-- **PocketFlow Mobile** — React Native + TypeScript mobile application
+- **PocketFlow Mobile** — React Native + TypeScript mobile application extending the same product ecosystem to mobile
 
 ## Technology focus
 
-**Frontend**  
+**React & Frontend**  
 React · TypeScript · JavaScript · HTML5 · CSS3 · Responsive UI · Design Systems
 
 **Testing & Quality**  
@@ -46,24 +48,26 @@ Playwright · Cypress · E2E Testing · API Testing · Test Design · Regression
 **Tooling & Delivery**  
 Git · GitHub · GitHub Actions · CI/CD · Node.js · REST APIs
 
-**Cross-platform**  
+**Mobile & Cross-platform**  
 React Native · Expo · Godot 4 · Design Tokens
 
 ## Engineering interests
 
 I am especially interested in:
 
-- building reusable component systems instead of one-off interfaces;
+- building reusable React component systems instead of one-off interfaces;
 - connecting design decisions with implementation through design tokens;
 - testing critical user flows as part of development rather than as an afterthought;
 - frontend architecture that stays understandable as a product grows;
-- sharing concepts between web and mobile while respecting platform differences.
+- extending React/TypeScript products from web to mobile with React Native.
 
 ## Current direction
 
-I am building toward **Frontend / React roles**, while keeping QA automation as a strong engineering advantage and developing React Native as the mobile extension of the same TypeScript stack.
+My main career direction is **React development**.
 
-Open to junior / early-career opportunities where I can contribute to real products, grow quickly and work with modern frontend and testing practices.
+QA automation is a complementary engineering strength that helps me build and verify more reliable frontend products, while React Native is the natural mobile extension of the same JavaScript/TypeScript stack.
+
+Open to junior / early-career **React Developer** opportunities where I can contribute to real products, grow quickly and work with modern frontend and testing practices.
 
 ---
 
