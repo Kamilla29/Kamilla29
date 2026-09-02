@@ -10,7 +10,26 @@ My profile has one clear core and two complementary strengths:
 - **Engineering advantage — QA automation:** Playwright, Cypress, API testing and CI/CD
 - **Mobile extension — React Native:** cross-platform applications built on the same TypeScript ecosystem
 
-## Featured project
+## Featured projects
+
+### [LoanFlow](https://github.com/Kamilla29/loanflow-web) — React / TypeScript fintech application
+
+My main React portfolio project. LoanFlow is a fictional consumer-loan journey built as a production-style frontend application.
+
+**Current MVP:**
+- React 18 + TypeScript in an Nx workspace
+- responsive loan calculator with isolated financial domain logic
+- four-step application flow: loan → personal data → finances → review
+- React Hook Form + Zod validation
+- Zustand application draft state
+- TanStack Query asynchronous submission flow
+- shared UI, domain, state and data-access libraries
+- Vitest unit tests and Cypress E2E coverage
+- GitHub Actions CI running typecheck, tests, production build and E2E
+
+**Stack:** React · TypeScript · Nx · React Router · TanStack Query · React Hook Form · Zod · Zustand · Vitest · Cypress · GitHub Actions
+
+LoanFlow is under active development; the first end-to-end product slice is implemented and continuously verified in CI.
 
 ### [Asteria Cross-Platform Design System](https://github.com/Kamilla29/asteria-design-system)
 
@@ -31,11 +50,10 @@ Asteria demonstrates the architectural side of my frontend work: reusable UI con
 
 ## Portfolio roadmap
 
-I am expanding the portfolio with production-style projects centered on the React/TypeScript ecosystem:
+The next projects extend the same React/TypeScript and software-quality story:
 
-- **LoanFlow** — React + TypeScript fintech application with reusable components, multi-step forms, API integration, Cypress and CI/CD
 - **QA Automation Lab** — Playwright + TypeScript, E2E/API testing, test strategy, test cases and bug reporting
-- **PocketFlow Mobile** — React Native + TypeScript mobile application extending the same product ecosystem to mobile
+- **PocketFlow Mobile** — React Native + TypeScript mobile application extending the LoanFlow product ecosystem to mobile
 
 ## Technology focus
 
@@ -43,10 +61,10 @@ I am expanding the portfolio with production-style projects centered on the Reac
 React · TypeScript · JavaScript · HTML5 · CSS3 · Responsive UI · Design Systems
 
 **Testing & Quality**  
-Playwright · Cypress · E2E Testing · API Testing · Test Design · Regression Testing
+Playwright · Cypress · Vitest · E2E Testing · API Testing · Test Design · Regression Testing
 
 **Tooling & Delivery**  
-Git · GitHub · GitHub Actions · CI/CD · Node.js · REST APIs
+Nx · Vite · Git · GitHub · GitHub Actions · CI/CD · Node.js · REST APIs
 
 **Mobile & Cross-platform**  
 React Native · Expo · Godot 4 · Design Tokens
@@ -56,9 +74,10 @@ React Native · Expo · Godot 4 · Design Tokens
 I am especially interested in:
 
 - building reusable React component systems instead of one-off interfaces;
-- connecting design decisions with implementation through design tokens;
+- keeping domain logic separate from presentation;
 - testing critical user flows as part of development rather than as an afterthought;
 - frontend architecture that stays understandable as a product grows;
+- connecting design decisions with implementation through design systems and tokens;
 - extending React/TypeScript products from web to mobile with React Native.
 
 ## Current direction
@@ -75,4 +94,4 @@ Open to junior / early-career **React Developer** opportunities where I can cont
 
 - GitHub: [@Kamilla29](https://github.com/Kamilla29)
 
-> More portfolio projects are being added as they reach a finished, reviewable state.
+> More portfolio projects are added when they reach a finished, reviewable state.
