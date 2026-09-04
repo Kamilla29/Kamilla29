@@ -16,7 +16,7 @@ My profile has one clear core and two complementary strengths:
 
 My main React portfolio project. LoanFlow is a fictional consumer-loan journey built as a production-style frontend application.
 
-**Current MVP:**
+**Highlights:**
 - React 18 + TypeScript in an Nx workspace
 - responsive loan calculator with isolated financial domain logic
 - four-step application flow: loan → personal data → finances → review
@@ -25,11 +25,31 @@ My main React portfolio project. LoanFlow is a fictional consumer-loan journey b
 - TanStack Query asynchronous submission flow
 - shared UI, domain, state and data-access libraries
 - Vitest unit tests and Cypress E2E coverage
+- accessibility-focused UI states and explicit review confirmation
 - GitHub Actions CI running typecheck, tests, production build and E2E
 
 **Stack:** React · TypeScript · Nx · React Router · TanStack Query · React Hook Form · Zod · Zustand · Vitest · Cypress · GitHub Actions
 
-LoanFlow is under active development; the first end-to-end product slice is implemented and continuously verified in CI.
+LoanFlow is also the target application for my independent QA Automation Lab, where cross-browser and accessibility regression found real defects that were fixed back in the product and re-verified in CI.
+
+### [QA Automation Lab](https://github.com/Kamilla29/qa-automation-lab) — Playwright / TypeScript quality engineering
+
+An independent QA project built around LoanFlow to demonstrate software-quality work beyond tests stored inside the application repository.
+
+**Highlights:**
+- Playwright + TypeScript Page Object and fixture architecture
+- Chromium, Firefox and mobile Chrome regression coverage
+- critical user journeys, validation, persistence and recovery scenarios
+- deterministic API contract test double with positive and negative cases
+- Axe accessibility smoke checks plus manual accessibility checklist
+- risk-based test strategy, traceability, exploratory charters and real bug reports
+- trace, screenshot, video and HTML diagnostics on failure
+- pinned LoanFlow revision for reproducible regression runs
+- GitHub Actions pipeline that builds the target and runs the complete QA suite
+
+**Stack:** Playwright · TypeScript · Axe · API Testing · E2E Testing · GitHub Actions
+
+The project documented and verified real findings, including WCAG AA contrast issues and a review-step auto-submit race discovered through cross-browser regression.
 
 ### [Asteria Cross-Platform Design System](https://github.com/Kamilla29/asteria-design-system)
 
@@ -50,10 +70,9 @@ Asteria demonstrates the architectural side of my frontend work: reusable UI con
 
 ## Portfolio roadmap
 
-The next projects extend the same React/TypeScript and software-quality story:
+The next project extends the same React/TypeScript ecosystem to mobile:
 
-- **QA Automation Lab** — Playwright + TypeScript, E2E/API testing, test strategy, test cases and bug reporting
-- **PocketFlow Mobile** — React Native + TypeScript mobile application extending the LoanFlow product ecosystem to mobile
+- **PocketFlow Mobile** — React Native + TypeScript mobile application extending the LoanFlow product ecosystem
 
 ## Technology focus
 
@@ -61,7 +80,7 @@ The next projects extend the same React/TypeScript and software-quality story:
 React · TypeScript · JavaScript · HTML5 · CSS3 · Responsive UI · Design Systems
 
 **Testing & Quality**  
-Playwright · Cypress · Vitest · E2E Testing · API Testing · Test Design · Regression Testing
+Playwright · Cypress · Vitest · Axe · E2E Testing · API Testing · Test Design · Regression Testing
 
 **Tooling & Delivery**  
 Nx · Vite · Git · GitHub · GitHub Actions · CI/CD · Node.js · REST APIs
