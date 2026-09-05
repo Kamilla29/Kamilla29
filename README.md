@@ -32,6 +32,28 @@ My main React portfolio project. LoanFlow is a fictional consumer-loan journey b
 
 LoanFlow is also the target application for my independent QA Automation Lab, where cross-browser and accessibility regression found real defects that were fixed back in the product and re-verified in CI.
 
+### [PocketFlow Mobile](https://github.com/Kamilla29/pocketflow-mobile) — React Native / TypeScript mobile companion
+
+A cross-platform mobile companion for the fictional LoanFlow product family, built to demonstrate how the same TypeScript-centered product thinking extends from web to native mobile interfaces.
+
+**Highlights:**
+- Expo + React Native + TypeScript
+- typed native stack and bottom-tab navigation
+- deep linking through `pocketflow://...`
+- loan overview, repayment progress and amortization schedule
+- application checklist and activity timeline
+- TanStack Query for remote-like application state
+- Zustand + AsyncStorage for local preferences
+- system / light / dark appearance modes
+- Zod validation and deterministic fictional API data
+- accessibility semantics for headings, controls and progress
+- Jest + React Native Testing Library coverage
+- reproducible GitHub Actions pipeline with locked dependencies, Expo checks, TypeScript, tests and Metro export
+
+**Stack:** React Native · Expo · TypeScript · React Navigation · TanStack Query · Zustand · Zod · Jest · React Native Testing Library · GitHub Actions
+
+PocketFlow is intentionally a mobile companion rather than a copy of LoanFlow Web: it focuses on repayment visibility, application status and native navigation patterns.
+
 ### [QA Automation Lab](https://github.com/Kamilla29/qa-automation-lab) — Playwright / TypeScript quality engineering
 
 An independent QA project built around LoanFlow to demonstrate software-quality work beyond tests stored inside the application repository.
@@ -68,12 +90,6 @@ A shared design-token architecture for **web and game user interfaces**.
 
 Asteria demonstrates the architectural side of my frontend work: reusable UI concepts, shared component semantics, platform adaptation and automated validation.
 
-## Portfolio roadmap
-
-The next project extends the same React/TypeScript ecosystem to mobile:
-
-- **PocketFlow Mobile** — React Native + TypeScript mobile application extending the LoanFlow product ecosystem
-
 ## Technology focus
 
 **React & Frontend**  
@@ -86,7 +102,7 @@ Playwright · Cypress · Vitest · Axe · E2E Testing · API Testing · Test Des
 Nx · Vite · Git · GitHub · GitHub Actions · CI/CD · Node.js · REST APIs
 
 **Mobile & Cross-platform**  
-React Native · Expo · Godot 4 · Design Tokens
+React Native · Expo · React Navigation · Godot 4 · Design Tokens
 
 ## Engineering interests
 
@@ -113,4 +129,4 @@ Open to junior / early-career **React Developer** opportunities where I can cont
 
 - GitHub: [@Kamilla29](https://github.com/Kamilla29)
 
-> More portfolio projects are added when they reach a finished, reviewable state.
+> Portfolio projects are added when they reach a finished, reviewable state.
