@@ -4,11 +4,20 @@
 
 I focus on modern frontend development with **React and TypeScript**, with a strong interest in reusable UI architecture, automated testing, maintainable code and cross-platform JavaScript applications.
 
-My profile has one clear core and two complementary strengths:
+My profile has one clear core — React development — with QA automation and React Native as complementary engineering strengths.
 
 - **Primary focus — React development:** React, TypeScript, component architecture and design systems
 - **Engineering advantage — QA automation:** Playwright, Cypress, API testing and CI/CD
 - **Mobile extension — React Native:** cross-platform applications built on the same TypeScript ecosystem
+
+## Recruiter quick scan
+
+| Project | Primary signal | Evidence |
+| --- | --- | --- |
+| [LoanFlow Web](https://github.com/Kamilla29/loanflow-web) | React frontend engineering | React 18, TypeScript, Nx architecture, forms, state, Vitest, Cypress, CI |
+| [QA Automation Lab](https://github.com/Kamilla29/qa-automation-lab) | QA automation / quality engineering | Playwright, API contracts, Axe, cross-browser regression, documented real defects, CI |
+| [PocketFlow Mobile](https://github.com/Kamilla29/pocketflow-mobile) | React Native / mobile | Expo, typed navigation, state architecture, Jest, verified Android runtime capture, GitHub Actions, Jenkinsfile, Maestro spec |
+| [Asteria Design System](https://github.com/Kamilla29/asteria-design-system) | UI architecture / design systems | design tokens, web/game adapters, Godot integration, validation pipeline, CI |
 
 ## Featured projects
 
@@ -48,9 +57,11 @@ A cross-platform mobile companion for the fictional LoanFlow product family, bui
 - Zod validation and deterministic fictional API data
 - accessibility semantics for headings, controls and progress
 - Jest + React Native Testing Library coverage
-- reproducible GitHub Actions pipeline with locked dependencies, Expo checks, TypeScript, tests and Metro export
+- verified standalone Android release-runtime screenshots captured on a Pixel 6 emulator
+- reproducible GitHub Actions quality pipeline with locked dependencies, Expo checks, TypeScript, tests and Metro export
+- portable Declarative Jenkinsfile plus an executable Maestro smoke-flow specification for device-level regression
 
-**Stack:** React Native · Expo · TypeScript · React Navigation · TanStack Query · Zustand · Zod · Jest · React Native Testing Library · GitHub Actions
+**Stack:** React Native · Expo · TypeScript · React Navigation · TanStack Query · Zustand · Zod · Jest · React Native Testing Library · GitHub Actions · Jenkins · Maestro
 
 PocketFlow is intentionally a mobile companion rather than a copy of LoanFlow Web: it focuses on repayment visibility, application status and native navigation patterns.
 
@@ -99,10 +110,10 @@ React · TypeScript · JavaScript · HTML5 · CSS3 · Responsive UI · Design Sy
 Playwright · Cypress · Vitest · Axe · E2E Testing · API Testing · Test Design · Regression Testing
 
 **Tooling & Delivery**  
-Nx · Vite · Git · GitHub · GitHub Actions · CI/CD · Node.js · REST APIs
+Nx · Vite · Git · GitHub · GitHub Actions · Jenkins · CI/CD · Node.js · REST APIs
 
 **Mobile & Cross-platform**  
-React Native · Expo · React Navigation · Godot 4 · Design Tokens
+React Native · Expo · React Navigation · Maestro · Godot 4 · Design Tokens
 
 ## Engineering interests
 
